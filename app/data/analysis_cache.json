@@ -1,0 +1,1333 @@
+{
+  "ACC-101": {
+    "id": "ACC-101",
+    "name": "Apex Cloud Logistics",
+    "website": "https://apex-cloud-logistics.synthetic",
+    "industry": "Supply Chain & Logistics",
+    "account_tier": "Enterprise",
+    "priority": "REVIEW",
+    "score": 92.9,
+    "confidence": 84.8,
+    "score_breakdown": {
+      "relevance_need": 88.8,
+      "timing_urgency": 98.0,
+      "commercial_fit": 91.0,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 92.9,
+      "recency_factor_applied": 1.0,
+      "days_since_latest_signal": 1
+    },
+    "confidence_breakdown": {
+      "source_reliability": 95.0,
+      "freshness": 95.0,
+      "identity_match": 98.0,
+      "evidence_agreement": 40.0,
+      "overall_confidence": 84.8
+    },
+    "guardrail": {
+      "triggered": true,
+      "guardrail_type": "CONFLICTING_EVIDENCE",
+      "warning_message": "Conflicting signals detected: High-intent initiative concurrent with executive budget/software freeze.",
+      "override_priority": "REVIEW"
+    },
+    "explanation": {
+      "why_now": [
+        "Apex Cloud Logistics officially launched Project Atlas, a corporate transformation program allocating $4.5M to automate real-time freight dispatch and eliminate manual dispatcher bottlenecks across North America on [EV-101-1] (2026-09-18).",
+        "Apex Cloud Logistics is urgently seeking a VP of Intelligent Operations to lead workflow orchestration, API-driven vendor integration, and dispatch automation stack evaluation as part of their executive budget/software freeze. This initiative aligns with the company's high-intent initiative on [EV-101-2] (2026-09-19).",
+        "Director of Logistics Technology from Apex viewed our enterprise pricing tier and downloaded the automated dispatch integration whitepaper 4 times in 24 hours, indicating a strong interest in our solution. This aligns with their positive direction as reflected in [EV-101-3] (2026-09-20)"
+      ],
+      "recommended_action": "Schedule a call to discuss Project Atlas and how Apex Cloud Logistics can support their automation needs.",
+      "conversation_focus": "Project Atlas and the need for real-time freight dispatch optimization",
+      "suggested_opener": "Hi David, I wanted to touch base with you regarding your interest in our enterprise pricing tier. As we discussed earlier, our automated dispatch integration solution has been a high-priority initiative for Apex Cloud Logistics, and I'd love to explore how it can support their goals."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-101-1",
+        "signal_type": "AI_INITIATIVE",
+        "summary": "Apex Cloud Logistics officially launched Project Atlas, a corporate transformation program allocating $4.5M to automate real-time freight dispatch and eliminate manual dispatcher bottlenecks across North America.",
+        "event_date": "2026-09-18",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 95.0
+      },
+      {
+        "evidence_id": "EV-101-2",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "Apex Cloud Logistics is urgently seeking a VP of Intelligent Operations to lead workflow orchestration, API-driven vendor integration, and dispatch automation stack evaluation.",
+        "event_date": "2026-09-19",
+        "direction": "negative",
+        "relevance": 60.0,
+        "need_strength": 70.0,
+        "timing_strength": 80.0
+      },
+      {
+        "evidence_id": "EV-101-3",
+        "signal_type": "PRICING_ACTIVITY",
+        "summary": "Director of Logistics Technology from Apex viewed our enterprise pricing tier and downloaded the automated dispatch integration whitepaper 4 times in 24 hours.",
+        "event_date": "2026-09-20",
+        "direction": "positive",
+        "relevance": 90.0,
+        "need_strength": 95.0,
+        "timing_strength": 98.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-101-1",
+        "title": "Press Release: Apex Cloud Announces Global AI Route Automation Initiative",
+        "source_type": "company_announcement",
+        "date": "2026-09-18",
+        "content": "Apex Cloud Logistics officially launched Project Atlas, a corporate transformation program allocating $4.5M to automate real-time freight dispatch and eliminate manual dispatcher bottlenecks across North America.",
+        "reliability_score": 0.95,
+        "entity_match_confidence": 0.98
+      },
+      {
+        "id": "EV-101-2",
+        "title": "Careers: VP of Intelligent Operations & Automation Pipeline",
+        "source_type": "careers_hiring",
+        "date": "2026-09-19",
+        "content": "Apex Cloud Logistics is urgently seeking a VP of Intelligent Operations to lead workflow orchestration, API-driven vendor integration, and dispatch automation stack evaluation.",
+        "reliability_score": 0.92,
+        "entity_match_confidence": 0.96
+      },
+      {
+        "id": "EV-101-3",
+        "title": "CRM Inbound Note: High Intent Pricing Page Activity",
+        "source_type": "product_pricing_activity",
+        "date": "2026-09-20",
+        "content": "Director of Logistics Technology from Apex viewed our enterprise pricing tier and downloaded the automated dispatch integration whitepaper 4 times in 24 hours.",
+        "reliability_score": 0.98,
+        "entity_match_confidence": 1.0
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 17:03:11",
+    "is_live_analyzed": true
+  },
+  "ACC-102": {
+    "id": "ACC-102",
+    "name": "FinGuard Payment Systems",
+    "website": "https://finguard-payments.synthetic",
+    "industry": "Financial Technology",
+    "account_tier": "Enterprise",
+    "priority": "HIGH",
+    "score": 79.4,
+    "confidence": 94.6,
+    "score_breakdown": {
+      "relevance_need": 85.0,
+      "timing_urgency": 70.0,
+      "commercial_fit": 86.8,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 79.4,
+      "recency_factor_applied": 1.0,
+      "days_since_latest_signal": 1
+    },
+    "confidence_breakdown": {
+      "source_reliability": 93.5,
+      "freshness": 95.0,
+      "identity_match": 97.5,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 94.6
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "FinGuard received an urgent request from the Head of Merchant Compliance to deploy automated triage software before November's audit on [EV-102-1] (2026-09-20).",
+        "FinGuard's payment volume increased significantly across cross-border corridors, putting pressure on compliance processing units as per [EV-102-2] (2026-09-17).",
+        "Strong strategic account fit based on CRM profile"
+      ],
+      "recommended_action": "Deploy automated triage software to ensure timely and efficient compliance processing before November's audit.",
+      "conversation_focus": "Merchant Compliance requirements and payment volume growth",
+      "suggested_opener": "Hi Elena, I wanted to follow up on our demo from June 10th regarding FinGuard Payment Systems. Given the recent uptick in merchant payments across cross-border corridors, I believe we can help address their compliance needs before November's audit."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-102-1",
+        "signal_type": "CRM SALES NOTE: INBOUND DEMO REQUEST FOR COMPLIANCE AUTOMATION",
+        "summary": "FinGuard received an urgent request from the Head of Merchant Compliance to deploy automated triage software before November's audit.",
+        "event_date": "2026-09-20",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-102-2",
+        "signal_type": "FINTECH WEEKLY: FINGUARD EXPANDS MERCHANT SETTLEMENT NETWORK",
+        "summary": "FinGuard's payment volume increased significantly across cross-border corridors, putting pressure on compliance processing units.",
+        "event_date": "2026-09-17",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-102-1",
+        "title": "CRM Sales Note: Inbound Demo Request for Compliance Automation",
+        "source_type": "crm_sales_note",
+        "date": "2026-09-20",
+        "content": "Head of Merchant Compliance submitted an urgent demo form: 'We are restructuring our dispute resolution desk and need automated triage software deployed before November audit.'",
+        "reliability_score": 0.99,
+        "entity_match_confidence": 1.0
+      },
+      {
+        "id": "EV-102-2",
+        "title": "FinTech Weekly: FinGuard Expands Merchant Settlement Network",
+        "source_type": "news_report",
+        "date": "2026-09-17",
+        "content": "FinGuard doubled payment volume across cross-border corridors, creating significant operational pressure on compliance processing units.",
+        "reliability_score": 0.88,
+        "entity_match_confidence": 0.95
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:52:44",
+    "is_live_analyzed": true
+  },
+  "ACC-103": {
+    "id": "ACC-103",
+    "name": "Vanguard FinTech Systems",
+    "website": "https://vanguard-fintech-systems.synthetic",
+    "industry": "Banking & Financial Services",
+    "account_tier": "Strategic",
+    "priority": "MONITOR",
+    "score": 54.0,
+    "confidence": 76.7,
+    "score_breakdown": {
+      "relevance_need": 80.0,
+      "timing_urgency": 7.0,
+      "commercial_fit": 95.8,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 54.0,
+      "recency_factor_applied": 0.1,
+      "days_since_latest_signal": 111
+    },
+    "confidence_breakdown": {
+      "source_reliability": 93.0,
+      "freshness": 25.0,
+      "identity_match": 96.5,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 76.7
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "Vanguard FinTech is exploring automation for back-office document processing, aligning with their ongoing efforts to enhance efficiency and reduce costs.",
+        "CTO notes high priority for multi-year automation objectives in 2027, indicating a strategic commitment to digital transformation.",
+        "The company's interest in FY27 budget cycle suggests they are actively seeking opportunities to optimize their financial processes."
+      ],
+      "recommended_action": "Schedule a call to discuss Vanguard FinTech's current automation initiatives and explore potential alignment with your organization's goals.",
+      "conversation_focus": "Automation and Efficiency in Banking & Financial Services",
+      "suggested_opener": "Hi Michael, I wanted to touch base with you regarding our previous discussions on optimizing back-office processes. Given the recent developments in Vanguard FinTech Systems, I'd like to explore how we can support their automation efforts."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-103-1",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "Vanguard FinTech is exploring automation for back-office document processing.",
+        "event_date": "2026-05-18",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 70.0,
+        "timing_strength": 60.0
+      },
+      {
+        "evidence_id": "EV-103-2",
+        "signal_type": "BUSINESS_EVENT",
+        "summary": "CTO notes high priority for multi-year automation objectives in 2027.",
+        "event_date": "2026-06-02",
+        "direction": "positive",
+        "relevance": 90.0,
+        "need_strength": 80.0,
+        "timing_strength": 70.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-103-1",
+        "title": "Enterprise RFP Notice: Back-Office Document Processing Modernization",
+        "source_type": "business_event",
+        "date": "2026-05-18",
+        "content": "Vanguard FinTech issued an exploratory RFP in May 2026 for automated document classification and parsing. Vendor selection was paused pending annual strategic review.",
+        "reliability_score": 0.92,
+        "entity_match_confidence": 0.97
+      },
+      {
+        "id": "EV-103-2",
+        "title": "Quarterly Financial Call: Cost Discipline & Multi-Year Tech Roadmap",
+        "source_type": "company_announcement",
+        "date": "2026-06-02",
+        "content": "CTO noted multi-year automation objectives remain high priority for 2027 fiscal year, but no new vendor engagements planned for current quarter.",
+        "reliability_score": 0.94,
+        "entity_match_confidence": 0.96
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:52:51",
+    "is_live_analyzed": true
+  },
+  "ACC-104": {
+    "id": "ACC-104",
+    "name": "Kestrel Energy Solutions",
+    "website": "https://kestrel-energy.synthetic",
+    "industry": "Renewables & Utilities",
+    "account_tier": "Enterprise",
+    "priority": "MONITOR",
+    "score": 54.4,
+    "confidence": 65.5,
+    "score_breakdown": {
+      "relevance_need": 85.0,
+      "timing_urgency": 7.0,
+      "commercial_fit": 88.2,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 54.4,
+      "recency_factor_applied": 0.1,
+      "days_since_latest_signal": 119
+    },
+    "confidence_breakdown": {
+      "source_reliability": 90.5,
+      "freshness": 25.0,
+      "identity_match": 96.5,
+      "evidence_agreement": 40.0,
+      "overall_confidence": 65.5
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "Kestrel Energy published a whitepaper in Spring 2026 highlighting plans for AI-driven predictive telemetry across wind turbine installations, aligning with their interest in renewable energy solutions.",
+        "No inbound inquiries or website visits recorded since May 2026 indicates a potential shift in account focus towards other priorities.",
+        "The lack of recent engagement suggests an opportunity to re-engage the account and address any existing needs."
+      ],
+      "recommended_action": "Schedule a call to discuss Kestrel Energy's progress on their renewable energy initiatives and explore how AI-driven predictive telemetry can support their business goals.",
+      "conversation_focus": "Renewable energy solutions and AI-driven predictive telemetry",
+      "suggested_opener": "Hi Sarah, I hope you're doing well. Given your recent interest in renewable energy solutions, I wanted to touch base with you about Kestrel Energy's progress on their initiatives. Have you had a chance to review our latest whitepaper on AI-driven predictive telemetry for wind turbine installations?"
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-104-1",
+        "signal_type": "AI_INITIATIVE",
+        "summary": "Kestrel Energy published a whitepaper in Spring 2026 highlighting plans for AI-driven predictive telemetry across wind turbine installations.",
+        "event_date": "2026-05-10",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-104-2",
+        "signal_type": "PRICING_ACTIVITY",
+        "summary": "No inbound inquiries or website visits recorded since May 2026. Account shows high fit on paper but stalled timing.",
+        "event_date": "2026-05-25",
+        "direction": "negative",
+        "relevance": 60.0,
+        "need_strength": 80.0,
+        "timing_strength": 40.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-104-1",
+        "title": "Industry Journal: Kestrel Outlines Grid Modernization Blueprint",
+        "source_type": "news_report",
+        "date": "2026-05-10",
+        "content": "Kestrel Energy published a whitepaper in Spring 2026 highlighting plans for AI-driven predictive telemetry across wind turbine installations.",
+        "reliability_score": 0.85,
+        "entity_match_confidence": 0.93
+      },
+      {
+        "id": "EV-104-2",
+        "title": "CRM Note: Inactive Account Review",
+        "source_type": "crm_sales_note",
+        "date": "2026-05-25",
+        "content": "No inbound inquiries or website visits recorded since May 2026. Account shows high fit on paper but stalled timing.",
+        "reliability_score": 0.96,
+        "entity_match_confidence": 1.0
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:53:00",
+    "is_live_analyzed": true
+  },
+  "ACC-105": {
+    "id": "ACC-105",
+    "name": "NovaBio Health",
+    "website": "https://novabio-health.synthetic",
+    "industry": "Biotechnology & Pharmaceuticals",
+    "account_tier": "Enterprise",
+    "priority": "HIGH",
+    "score": 76.5,
+    "confidence": 95.0,
+    "score_breakdown": {
+      "relevance_need": 77.5,
+      "timing_urgency": 70.0,
+      "commercial_fit": 87.7,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 76.5,
+      "recency_factor_applied": 1.0,
+      "days_since_latest_signal": 1
+    },
+    "confidence_breakdown": {
+      "source_reliability": 94.3,
+      "freshness": 95.0,
+      "identity_match": 98.0,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 95.0
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "NovaBio Health announced a major push to adopt next-generation data synthesis platforms, which aligns with our company's strategic focus on innovation and efficiency in clinical trial reporting cycles.",
+        "The CFO's moratorium on new software vendor commitments and SaaS renewals exceeding $50k until Q1 2027 audit completion creates an opportunity for us to explore alternative solutions that can help NovaBio Health optimize its current technology stack.",
+        "Dr. Aris' mention of our platform in a meeting highlights the potential for collaboration and partnership, which could be leveraged to drive business growth and address specific pain points."
+      ],
+      "recommended_action": "Schedule a call with Alex Rivera to discuss next steps and explore how NovaBio Health can benefit from our data synthesis platforms.",
+      "conversation_focus": "NovaBio Health's efforts to optimize clinical trial reporting cycles and their interest in exploring alternative solutions that align with our company's strategic focus.",
+      "suggested_opener": "Hi Alex, I hope this email finds you well. As we discussed previously, NovaBio Health is committed to innovation and efficiency in clinical trial reporting cycles. I wanted to follow up on the progress we've made so far and explore how our data synthesis platforms can support your team's goals."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-105-1",
+        "signal_type": "AI_INITIATIVE",
+        "summary": "NovaBio Health announced a major push to adopt next-generation data synthesis platforms to cut clinical trial reporting cycles by 40%.",
+        "event_date": "2026-09-17",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-105-2",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "CFO announced an immediate company-wide moratorium on new software vendor commitments and SaaS renewals exceeding $50k until Q1 2027 audit completion.",
+        "event_date": "2026-09-19",
+        "direction": "negative",
+        "relevance": 20.0,
+        "need_strength": 10.0,
+        "timing_strength": 30.0
+      },
+      {
+        "evidence_id": "EV-105-3",
+        "signal_type": "PRICING_ACTIVITY",
+        "summary": "Dr. Aris mentioned they love our platform and have an urgent trial starting next month, but procurement blocked the purchase requisition yesterday due to executive freeze.",
+        "event_date": "2026-09-20",
+        "direction": "neutral",
+        "relevance": 60.0,
+        "need_strength": 80.0,
+        "timing_strength": 40.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-105-1",
+        "title": "Press Release: NovaBio Accelerates Clinical Trial Automation",
+        "source_type": "company_announcement",
+        "date": "2026-09-17",
+        "content": "NovaBio Health announced a major push to adopt next-generation data synthesis platforms to cut clinical trial reporting cycles by 40%.",
+        "reliability_score": 0.95,
+        "entity_match_confidence": 0.98
+      },
+      {
+        "id": "EV-105-2",
+        "title": "Internal Memo Leak / Industry Wire: NovaBio Imposes Strict Software Freeze",
+        "source_type": "news_report",
+        "date": "2026-09-19",
+        "content": "CFO announced an immediate company-wide moratorium on new software vendor commitments and SaaS renewals exceeding $50k until Q1 2027 audit completion.",
+        "reliability_score": 0.91,
+        "entity_match_confidence": 0.96
+      },
+      {
+        "id": "EV-105-3",
+        "title": "CRM Sales Note: Conflicting Feedback from Clinical Lead",
+        "source_type": "crm_sales_note",
+        "date": "2026-09-20",
+        "content": "Dr. Aris mentioned they love our platform and have an urgent trial starting next month, but procurement blocked the purchase requisition yesterday due to executive freeze.",
+        "reliability_score": 0.97,
+        "entity_match_confidence": 1.0
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:53:11",
+    "is_live_analyzed": true
+  },
+  "ACC-106": {
+    "id": "ACC-106",
+    "name": "Quantum Orbit Analytics",
+    "website": "https://quantum-orbit.synthetic",
+    "industry": "Aerospace & Geospatial",
+    "account_tier": "Mid-Market",
+    "priority": "REVIEW",
+    "score": 78.5,
+    "confidence": 83.2,
+    "score_breakdown": {
+      "relevance_need": 85.0,
+      "timing_urgency": 70.0,
+      "commercial_fit": 82.5,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 78.5,
+      "recency_factor_applied": 1.0,
+      "days_since_latest_signal": 3
+    },
+    "confidence_breakdown": {
+      "source_reliability": 91.5,
+      "freshness": 95.0,
+      "identity_match": 96.0,
+      "evidence_agreement": 40.0,
+      "overall_confidence": 83.2
+    },
+    "guardrail": {
+      "triggered": true,
+      "guardrail_type": "CONFLICTING_EVIDENCE",
+      "warning_message": "Conflicting signals detected: High-intent initiative concurrent with executive budget/software freeze.",
+      "override_priority": "REVIEW"
+    },
+    "explanation": {
+      "why_now": [
+        "Quantum Orbit's recent announcement of new roles for telemetry anomaly detection and automated satellite imagery parsing aligns with our interest in enhancing our aerospace & geospatial capabilities.",
+        "The executive budget/software freeze may impact Quantum Orbit's ability to invest in external AI software contracts, making it essential to reassess their current strategy.",
+        "Our evaluation of internal builds vs vendor solutions suggests that Quantum Orbit is considering a more in-house approach, which could be beneficial for their specific needs."
+      ],
+      "recommended_action": "Schedule a call to discuss the implications of these announcements on our aerospace & geospatial initiatives and explore potential opportunities for collaboration.",
+      "conversation_focus": "Quantum Orbit's recent investment in new roles and capabilities",
+      "suggested_opener": "Hi Sarah, I wanted to touch base with you regarding Quantum Orbit Analytics' recent announcement of new telemetry anomaly detection and automated satellite imagery parsing roles. How do these developments align with your current strategy for enhancing their aerospace & geospatial capabilities?"
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-106-1",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "Quantum Orbit posted 8 new roles for telemetry anomaly detection and automated satellite imagery parsing.",
+        "event_date": "2026-09-16",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-106-2",
+        "signal_type": "PRICING_ACTIVITY",
+        "summary": "New Chief Operating Officer mandated a freeze on external AI software contracts while the company benchmarks in-house engineering capabilities.",
+        "event_date": "2026-09-18",
+        "direction": "negative",
+        "relevance": 60.0,
+        "need_strength": 80.0,
+        "timing_strength": 40.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-106-1",
+        "title": "Hiring Surge: 8 Senior Machine Learning Engineers",
+        "source_type": "careers_hiring",
+        "date": "2026-09-16",
+        "content": "Quantum Orbit posted 8 new roles for telemetry anomaly detection and automated satellite imagery parsing.",
+        "reliability_score": 0.93,
+        "entity_match_confidence": 0.97
+      },
+      {
+        "id": "EV-106-2",
+        "title": "Executive Change Notice: Leadership Restructure & Vendor Audit",
+        "source_type": "business_event",
+        "date": "2026-09-18",
+        "content": "New Chief Operating Officer mandated a freeze on external AI software contracts while the company benchmarks in-house engineering capabilities.",
+        "reliability_score": 0.9,
+        "entity_match_confidence": 0.95
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:53:19",
+    "is_live_analyzed": true
+  },
+  "ACC-107": {
+    "id": "ACC-107",
+    "name": "Horizon Retail Tech",
+    "website": "https://horizon-retail.synthetic",
+    "industry": "Omnichannel Retail",
+    "account_tier": "Enterprise",
+    "priority": "SUPPRESSED",
+    "score": 78.3,
+    "confidence": 96.1,
+    "score_breakdown": {
+      "relevance_need": 80.0,
+      "timing_urgency": 70.0,
+      "commercial_fit": 91.7,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 78.3,
+      "recency_factor_applied": 1.0,
+      "days_since_latest_signal": 3
+    },
+    "confidence_breakdown": {
+      "source_reliability": 97.0,
+      "freshness": 95.0,
+      "identity_match": 99.5,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 96.1
+    },
+    "guardrail": {
+      "triggered": true,
+      "guardrail_type": "RECENTLY_CONTACTED",
+      "warning_message": "Rep contact within last 3 days (2026-09-18 by David Miller). Cold outreach suppressed.",
+      "override_priority": "SUPPRESSED"
+    },
+    "explanation": {
+      "why_now": [
+        "Horizon Retail Tech announced nationwide rollout of autonomous store inventory balancing on [EV-107-1] (2026-09-15) as a significant step towards enhancing omnichannel retail capabilities.",
+        "David Miller's recent conversation with the VP of Digital Operations resulted in a formal enterprise proposal, demonstrating the company's interest in leveraging Horizon Retail Tech's solutions.",
+        "The discovery call and custom proposal presented to David Miller have already led to follow-up meetings, indicating a strong potential for partnership."
+      ],
+      "recommended_action": "Schedule a personalized meeting with David Miller to discuss Horizon Retail Tech's autonomous store inventory balancing solution and explore how it can address his team's specific pain points.",
+      "conversation_focus": "Omnichannel retail capabilities and the need for efficient inventory management",
+      "suggested_opener": "Hi David, I hope you're doing well. I wanted to touch base with you regarding our recent announcement about the nationwide rollout of autonomous store inventory balancing in omnichannel retail. As someone who has been following your company's progress, I believe this solution could be a game-changer for your team."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-107-1",
+        "signal_type": "OMNICHANNEL RETAIL INITIATIVE",
+        "summary": "Horizon Retail Tech announced nationwide rollout of autonomous store inventory balancing.",
+        "event_date": "2026-09-15",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-107-2",
+        "signal_type": "CRM SALES REP LOG ACTIVITY",
+        "summary": "Rep David Miller spoke with VP of Digital Operations for 45 minutes and sent a formal enterprise proposal.",
+        "event_date": "2026-09-18",
+        "direction": "positive",
+        "relevance": 70.0,
+        "need_strength": 80.0,
+        "timing_strength": 60.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-107-1",
+        "title": "Company Press Release: Omnichannel Inventory Sync 2.0",
+        "source_type": "company_announcement",
+        "date": "2026-09-15",
+        "content": "Horizon Retail Tech announced nationwide rollout of autonomous store inventory balancing.",
+        "reliability_score": 0.95,
+        "entity_match_confidence": 0.99
+      },
+      {
+        "id": "EV-107-2",
+        "title": "CRM Sales Rep Log: Active Opportunity in Progress",
+        "source_type": "crm_sales_note",
+        "date": "2026-09-18",
+        "content": "Rep David Miller: 'Spoke with VP of Digital Operations for 45 mins. Demo went excellently. Formal enterprise proposal sent. Meeting set with Procurement for next Tuesday.'",
+        "reliability_score": 0.99,
+        "entity_match_confidence": 1.0
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:53:29",
+    "is_live_analyzed": true
+  },
+  "ACC-108": {
+    "id": "ACC-108",
+    "name": "Stratos Security Solutions",
+    "website": "https://stratos-security.synthetic",
+    "industry": "Cybersecurity & Identity",
+    "account_tier": "Enterprise",
+    "priority": "SUPPRESSED",
+    "score": 77.3,
+    "confidence": 95.7,
+    "score_breakdown": {
+      "relevance_need": 80.0,
+      "timing_urgency": 70.0,
+      "commercial_fit": 86.3,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 77.3,
+      "recency_factor_applied": 1.0,
+      "days_since_latest_signal": 4
+    },
+    "confidence_breakdown": {
+      "source_reliability": 96.5,
+      "freshness": 95.0,
+      "identity_match": 98.5,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 95.7
+    },
+    "guardrail": {
+      "triggered": true,
+      "guardrail_type": "RECENTLY_CONTACTED",
+      "warning_message": "Rep contact within last 4 days (2026-09-17 by Elena Rostova). Cold outreach suppressed.",
+      "override_priority": "SUPPRESSED"
+    },
+    "explanation": {
+      "why_now": [
+        "Stratos is expanding their threat intelligence capabilities with the integration of cloud access gateway, which aligns with our growing interest in advanced security solutions.",
+        "Stratos is introducing a new pricing model for their cloud access gateway, indicating an opportunity to upsell and cross-sell existing customers.",
+        "The recent contact with Elena Rostova suggests that Stratos may be considering expanding into the threat intelligence space, creating a potential partnership opportunity."
+      ],
+      "recommended_action": "Upsell/Cross-Sell Opportunity",
+      "conversation_focus": "Stratos' expansion of threat intelligence capabilities and introduction of new pricing model.",
+      "suggested_opener": "Hi Elena, I wanted to touch base with you regarding Stratos Security Solutions. Given our recent conversation on their cloud access gateway integration, I believe we may have a great opportunity to discuss how our advanced security solutions can support your growing threat intelligence needs."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-108-1",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "Stratos is expanding their threat intelligence capabilities with the integration of cloud access gateway.",
+        "event_date": "2026-09-14",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-108-2",
+        "signal_type": "PRICING_ACTIVITY",
+        "summary": "Stratos is introducing a new pricing model for their cloud access gateway.",
+        "event_date": "2026-09-17",
+        "direction": "positive",
+        "relevance": 70.0,
+        "need_strength": 80.0,
+        "timing_strength": 60.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-108-1",
+        "title": "Product Launch: Zero Trust Access Gateway v4",
+        "source_type": "company_announcement",
+        "date": "2026-09-14",
+        "content": "Stratos launched their cloud access gateway integrating threat intelligence feeds across enterprise endpoints.",
+        "reliability_score": 0.94,
+        "entity_match_confidence": 0.97
+      },
+      {
+        "id": "EV-108-2",
+        "title": "CRM Sales Log: Active Legal Review",
+        "source_type": "crm_sales_note",
+        "date": "2026-09-17",
+        "content": "Rep Elena: 'Redlines received from Stratos General Counsel. Security review cleared. Do not initiate cold contact; deal closing sequence managed by Enterprise team.'",
+        "reliability_score": 0.99,
+        "entity_match_confidence": 1.0
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:53:36",
+    "is_live_analyzed": true
+  },
+  "ACC-109": {
+    "id": "ACC-109",
+    "name": "Legacy Ironworks & Co",
+    "website": "https://legacy-ironworks.synthetic",
+    "industry": "Heavy Manufacturing & Materials",
+    "account_tier": "Mid-Market",
+    "priority": "LOW",
+    "score": 45.6,
+    "confidence": 75.6,
+    "score_breakdown": {
+      "relevance_need": 77.5,
+      "timing_urgency": 21.0,
+      "commercial_fit": 31.0,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 45.6,
+      "recency_factor_applied": 0.3,
+      "days_since_latest_signal": 81
+    },
+    "confidence_breakdown": {
+      "source_reliability": 81.0,
+      "freshness": 45.0,
+      "identity_match": 86.5,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 75.6
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "Legacy Ironworks & Co. is expanding its operations to meet growing demand for their stamping facility in Ohio, aligning with their strategic growth plan.",
+        "Their standard casting output remains unchanged, indicating no immediate need for technology modernization programs.",
+        "No software budget has been allocated; the focus remains on heavy legacy equipment."
+      ],
+      "recommended_action": "Schedule a call to discuss potential solutions that address Legacy Ironworks & Co.'s specific pain points and align with their strategic goals.",
+      "conversation_focus": "Legacy Ironworks & Co. expanding operations in Ohio, highlighting the need for efficient stamping facility management.",
+      "suggested_opener": "Hi Michael, I wanted to touch base with you regarding your recent expansion plans at Legacy Ironworks & Co., as it's clear that their growth is driving a need for optimized equipment and process management."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-109-1",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "Legacy Ironworks & Co. is expanding its operations to meet growing demand for their stamping facility in Ohio.",
+        "event_date": "2026-06-25",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-109-2",
+        "signal_type": "BUSINESS_EVENT",
+        "summary": "Legacy Ironworks & Co. reports standard casting output unchanged, with no technology modernization programs planned.",
+        "event_date": "2026-07-02",
+        "direction": "neutral",
+        "relevance": 60.0,
+        "need_strength": 80.0,
+        "timing_strength": 40.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-109-1",
+        "title": "Local Business Notice: Foundry Equipment Safety Recertification",
+        "source_type": "business_event",
+        "date": "2026-06-25",
+        "content": "Legacy Ironworks completed municipal hydraulic safety certification for their stamping facility in Ohio.",
+        "reliability_score": 0.82,
+        "entity_match_confidence": 0.88
+      },
+      {
+        "id": "EV-109-2",
+        "title": "Trade Directory Listing: Annual Capacity Report",
+        "source_type": "news_report",
+        "date": "2026-07-02",
+        "content": "Report shows standard casting output unchanged; no technology modernization programs planned.",
+        "reliability_score": 0.8,
+        "entity_match_confidence": 0.85
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:53:44",
+    "is_live_analyzed": true
+  },
+  "ACC-110": {
+    "id": "ACC-110",
+    "name": "Pacific Timber Logistics",
+    "website": "https://pacific-timber.synthetic",
+    "industry": "Forestry & Materials",
+    "account_tier": "Growth",
+    "priority": "LOW",
+    "score": 38.6,
+    "confidence": 72.7,
+    "score_breakdown": {
+      "relevance_need": 75.0,
+      "timing_urgency": 9.0,
+      "commercial_fit": 24.8,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 38.6,
+      "recency_factor_applied": 0.1,
+      "days_since_latest_signal": 98
+    },
+    "confidence_breakdown": {
+      "source_reliability": 85.0,
+      "freshness": 25.0,
+      "identity_match": 90.0,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 72.7
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "Pacific Timber Logistics renewed their lease on lumber distribution yards in Oregon, expanding their operations and increasing revenue.",
+        "Their recent lease renewal demonstrates a clear need to improve their logistics capabilities to support growth.",
+        "The expansion of their operations presents an opportunity for Pacific Timber Logistics to enhance their services and increase competitiveness."
+      ],
+      "recommended_action": "Schedule a call to discuss the current state of their logistics operations and explore ways to leverage technology to improve efficiency and scalability.",
+      "conversation_focus": "Pacific Timber Logistics' recent lease renewal and expansion of operations",
+      "suggested_opener": "Hi David, I wanted to touch base with you regarding your recent lease renewal on lumber distribution yards in Oregon. How have you been using the new facilities, and what are some key challenges you're facing in terms of logistics operations?"
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-110-1",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "Pacific Timber Logistics renewed their lease on lumber distribution yards in Oregon, expanding their operations.",
+        "event_date": "2026-06-15",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 70.0,
+        "timing_strength": 90.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-110-1",
+        "title": "Regional News: Warehouse Lease Extension",
+        "source_type": "business_event",
+        "date": "2026-06-15",
+        "content": "Pacific Timber renewed their 5-year lease on lumber distribution yards in Oregon.",
+        "reliability_score": 0.85,
+        "entity_match_confidence": 0.9
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:53:49",
+    "is_live_analyzed": true
+  },
+  "ACC-111": {
+    "id": "ACC-111",
+    "name": "AuraMed Telehealth",
+    "website": "https://auramed-telehealth.synthetic",
+    "industry": "Digital Healthcare",
+    "account_tier": "Enterprise",
+    "priority": "REVIEW",
+    "score": 80.9,
+    "confidence": 84.0,
+    "score_breakdown": {
+      "relevance_need": 87.5,
+      "timing_urgency": 70.0,
+      "commercial_fit": 89.3,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 80.9,
+      "recency_factor_applied": 1.0,
+      "days_since_latest_signal": 6
+    },
+    "confidence_breakdown": {
+      "source_reliability": 93.0,
+      "freshness": 95.0,
+      "identity_match": 97.5,
+      "evidence_agreement": 40.0,
+      "overall_confidence": 84.0
+    },
+    "guardrail": {
+      "triggered": true,
+      "guardrail_type": "CONFLICTING_EVIDENCE",
+      "warning_message": "Conflicting signals detected: High-intent initiative concurrent with executive budget/software freeze.",
+      "override_priority": "REVIEW"
+    },
+    "explanation": {
+      "why_now": [
+        "AuraMed plans to implement a budget freeze for the upcoming quarter, which may impact their ability to invest in digital healthcare services.",
+        "AuraMed is expected to increase pricing for its virtual consultations due to rising operational costs, potentially affecting customer affordability.",
+        "AuraMed's expansion of its team to support growing demand for digital healthcare services may require additional resources."
+      ],
+      "recommended_action": "Schedule a call to discuss the impact of these changes on their business and explore potential solutions.",
+      "conversation_focus": "The recent budget freeze and pricing increase announcements from AuraMed, which may affect their ability to invest in digital healthcare services.",
+      "suggested_opener": "Hi Alex, I wanted to touch base with you regarding your recent patient triage volume spike. How are you managing the increased demand for digital healthcare services?"
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-111-1",
+        "signal_type": "BUDGET_FREEZE",
+        "summary": "AuraMed plans to implement a budget freeze for the upcoming quarter to prevent cost increases.",
+        "event_date": "2026-09-01",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-111-1",
+        "signal_type": "PRICING_ACTIVITY",
+        "summary": "AuraMed is expected to increase pricing for its virtual consultations, citing rising operational costs.",
+        "event_date": "2026-09-01",
+        "direction": "negative",
+        "relevance": 60.0,
+        "need_strength": 80.0,
+        "timing_strength": 40.0
+      },
+      {
+        "evidence_id": "EV-111-2",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "AuraMed is expanding its team to support the growing demand for digital healthcare services.",
+        "event_date": "2026-09-01",
+        "direction": "positive",
+        "relevance": 90.0,
+        "need_strength": 95.0,
+        "timing_strength": 85.0
+      },
+      {
+        "evidence_id": "EV-111-2",
+        "signal_type": "BUSINESS_EVENT",
+        "summary": "AuraMed is hosting a virtual hiring event to attract top talent in the industry.",
+        "event_date": "2026-09-15",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-111-1",
+        "title": "TechCrunch Coverage: AuraMed Reaches 3M Virtual Visits",
+        "source_type": "news_report",
+        "date": "2026-09-18",
+        "content": "AuraMed reported 85% year-over-year expansion in remote consultations, overwhelming manual clinical intake coordinators and triage queues.",
+        "reliability_score": 0.94,
+        "entity_match_confidence": 0.98
+      },
+      {
+        "id": "EV-111-2",
+        "title": "Hiring: Director of Patient Intake Automation",
+        "source_type": "careers_hiring",
+        "date": "2026-09-19",
+        "content": "AuraMed is actively hiring an automation lead to integrate automated patient pre-screening and EHR data pipeline software.",
+        "reliability_score": 0.92,
+        "entity_match_confidence": 0.97
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:54:00",
+    "is_live_analyzed": true
+  },
+  "ACC-112": {
+    "id": "ACC-112",
+    "name": "Beacon Freight Global",
+    "website": "https://beacon-freight.synthetic",
+    "industry": "Maritime & Freight Forwarding",
+    "account_tier": "Enterprise",
+    "priority": "HIGH",
+    "score": 78.7,
+    "confidence": 91.0,
+    "score_breakdown": {
+      "relevance_need": 87.5,
+      "timing_urgency": 68.0,
+      "commercial_fit": 82.5,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 78.7,
+      "recency_factor_applied": 0.8,
+      "days_since_latest_signal": 19
+    },
+    "confidence_breakdown": {
+      "source_reliability": 91.0,
+      "freshness": 85.0,
+      "identity_match": 96.3,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 91.0
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "Beacon Freight implemented budget freeze to reduce costs and improve efficiency on [EV-112-1] (2026-09-02) as part of their efforts to optimize operations.",
+        "Beacon Freight adjusted pricing for transpacific cargo routes to reflect increased tariff documentation and customs manifest compliance on [EV-112-1] (2026-09-02).",
+        "Beacon Freight expanded its operations to include more vessel charters for transpacific cargo routes, aligning with their goal of increasing revenue through cost savings."
+      ],
+      "recommended_action": "Implement a budget freeze and adjust pricing for transpacific cargo routes to optimize efficiency.",
+      "conversation_focus": "Cost reduction and operational optimization in the maritime freight forwarding industry",
+      "suggested_opener": "Hi Michael, I wanted to follow up on our previous discussion regarding customs filing automation. As you may recall, Beacon Freight implemented a budget freeze to reduce costs and improve efficiency in their operations."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-112-1",
+        "signal_type": "BUDGET_FREEZE",
+        "summary": "Beacon Freight implemented budget freeze to reduce costs and improve efficiency.",
+        "event_date": "2026-09-02",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-112-1",
+        "signal_type": "PRICING_ACTIVITY",
+        "summary": "Beacon Freight adjusted pricing for transpacific cargo routes to reflect increased tariff documentation and customs manifest compliance.",
+        "event_date": "2026-09-02",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-112-2",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "Beacon Freight expanded its operations to include more vessel charters for transpacific cargo routes.",
+        "event_date": "2026-09-02",
+        "direction": "positive",
+        "relevance": 90.0,
+        "need_strength": 95.0,
+        "timing_strength": 85.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-112-1",
+        "title": "Maritime News: Beacon Freight Expands Transpacific Cargo Routes",
+        "source_type": "company_announcement",
+        "date": "2026-09-02",
+        "content": "Beacon Freight added 12 new vessel charters to handle increased tariff documentation and customs manifest compliance.",
+        "reliability_score": 0.9,
+        "entity_match_confidence": 0.96
+      },
+      {
+        "id": "EV-112-2",
+        "title": "Product Evaluation: Customs Automation RFP",
+        "source_type": "product_pricing_activity",
+        "date": "2026-09-08",
+        "content": "Beacon Freight operations team reviewed automated bill-of-lading extraction systems and requested ROI benchmarks.",
+        "reliability_score": 0.93,
+        "entity_match_confidence": 0.97
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:54:09",
+    "is_live_analyzed": true
+  },
+  "ACC-113": {
+    "id": "ACC-113",
+    "name": "CloudScale DevOps",
+    "website": "https://cloudscale-devops.synthetic",
+    "industry": "Cloud Infrastructure",
+    "account_tier": "Mid-Market",
+    "priority": "HIGH",
+    "score": 83.7,
+    "confidence": 93.6,
+    "score_breakdown": {
+      "relevance_need": 88.8,
+      "timing_urgency": 80.0,
+      "commercial_fit": 81.2,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 83.7,
+      "recency_factor_applied": 1.0,
+      "days_since_latest_signal": 2
+    },
+    "confidence_breakdown": {
+      "source_reliability": 92.0,
+      "freshness": 95.0,
+      "identity_match": 95.5,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 93.6
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "CloudScale will freeze budget for automation tools and alert correlation services to prevent on-call engineer burnout, aligning with their recent interest in incident triage automation.",
+        "CloudScale is hiring a Senior SRE to build and integrate intelligent alerting pipelines and vendor monitoring integrations, indicating a growing need for automation solutions.",
+        "The recent announcement of CloudScale's budget freeze and hiring of a Senior SRE suggests a shift towards more efficient operations, making automation tools like incident triage automation more attractive."
+      ],
+      "recommended_action": "Schedule a follow-up call to discuss the benefits of implementing incident triage automation and explore how it can address their on-call engineer burnout.",
+      "conversation_focus": "On-call engineer burnout prevention and efficient operations in cloud infrastructure",
+      "suggested_opener": "Hi Elena, hope you're doing well. I wanted to touch base with you about your recent interest in incident triage automation and explore how it can help address the challenges you're facing."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-113-1",
+        "signal_type": "BUDGET_FREEZE",
+        "summary": "CloudScale will freeze budget for automation tools and alert correlation services to prevent on-call engineer burnout.",
+        "event_date": "2026-09-17",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      },
+      {
+        "evidence_id": "EV-113-2",
+        "signal_type": "HIRING_EXPANSION",
+        "summary": "CloudScale is hiring a Senior SRE to build and integrate intelligent alerting pipelines and vendor monitoring integrations.",
+        "event_date": "2026-09-19",
+        "direction": "positive",
+        "relevance": 90.0,
+        "need_strength": 95.0,
+        "timing_strength": 80.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-113-1",
+        "title": "Blog Post: Incident Response Scaling Challenges",
+        "source_type": "company_announcement",
+        "date": "2026-09-17",
+        "content": "CloudScale engineering blog highlighted the need to automate alert correlation and root cause classification to reduce on-call engineer burnout.",
+        "reliability_score": 0.91,
+        "entity_match_confidence": 0.95
+      },
+      {
+        "id": "EV-113-2",
+        "title": "Careers: Senior SRE - Automation Tools",
+        "source_type": "careers_hiring",
+        "date": "2026-09-19",
+        "content": "Seeking an SRE to build and integrate intelligent alerting pipelines and vendor monitoring integrations.",
+        "reliability_score": 0.93,
+        "entity_match_confidence": 0.96
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 17:03:37",
+    "is_live_analyzed": true
+  },
+  "ACC-114": {
+    "id": "ACC-114",
+    "name": "Veritas Legal Tech",
+    "website": "https://veritas-legal.synthetic",
+    "industry": "Legal Technology & Discovery",
+    "account_tier": "Growth",
+    "priority": "MONITOR",
+    "score": 63.1,
+    "confidence": 84.6,
+    "score_breakdown": {
+      "relevance_need": 85.0,
+      "timing_urgency": 35.0,
+      "commercial_fit": 75.4,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 63.1,
+      "recency_factor_applied": 0.5,
+      "days_since_latest_signal": 38
+    },
+    "confidence_breakdown": {
+      "source_reliability": 88.0,
+      "freshness": 65.0,
+      "identity_match": 94.0,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 84.6
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "Veritas expanded its litigation support contracts across 20 regional law firms in August 2026, meeting a key commercial goal.",
+        "This achievement demonstrates Veritas' commitment to supporting their clients' litigation needs.",
+        "The successful expansion of litigation support contracts aligns with Veritas' strategic objectives."
+      ],
+      "recommended_action": "Schedule a follow-up call to discuss the benefits of expanding litigation support contracts across regional law firms.",
+      "conversation_focus": "Veritas' efforts to expand litigation support contracts in August 2026, highlighting their commitment to supporting clients' litigation needs.",
+      "suggested_opener": "Hi Sarah, I wanted to touch base with you regarding your association general counsel's interest in expanding Veritas' litigation support contracts across regional law firms."
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-114-1",
+        "signal_type": "BUDGET_FREEZE",
+        "summary": "Veritas expanded its litigation support contracts across 20 regional law firms in August 2026.",
+        "event_date": "2026-08-14",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 90.0,
+        "timing_strength": 70.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-114-1",
+        "title": "Legal IT Insider: Veritas Signs Multi-Firm eDiscovery Partnership",
+        "source_type": "news_report",
+        "date": "2026-08-14",
+        "content": "Veritas expanded its litigation support contracts across 20 regional law firms in August 2026.",
+        "reliability_score": 0.88,
+        "entity_match_confidence": 0.94
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:54:21",
+    "is_live_analyzed": true
+  },
+  "ACC-115": {
+    "id": "ACC-115",
+    "name": "Nordic Clean Energy Grid",
+    "website": "https://nordic-clean-energy.synthetic",
+    "industry": "Energy & Infrastructure",
+    "account_tier": "Enterprise",
+    "priority": "MONITOR",
+    "score": 50.1,
+    "confidence": 76.2,
+    "score_breakdown": {
+      "relevance_need": 75.0,
+      "timing_urgency": 9.0,
+      "commercial_fit": 82.4,
+      "relevance_weight": 0.4,
+      "timing_weight": 0.4,
+      "commercial_weight": 0.2,
+      "final_score": 50.1,
+      "recency_factor_applied": 0.1,
+      "days_since_latest_signal": 140
+    },
+    "confidence_breakdown": {
+      "source_reliability": 92.0,
+      "freshness": 25.0,
+      "identity_match": 96.0,
+      "evidence_agreement": 92.0,
+      "overall_confidence": 76.2
+    },
+    "guardrail": {
+      "triggered": false,
+      "guardrail_type": "NONE",
+      "warning_message": null,
+      "override_priority": null
+    },
+    "explanation": {
+      "why_now": [
+        "Nordic Clean Energy Grid explored strategic use of automated battery dispatch systems in May 2026 as part of their grid storage optimization initiative, aligning with their goal to enhance grid resilience and reduce carbon emissions.",
+        "Their recent exploration of this topic suggests a potential alignment with their existing initiatives and goals.",
+        "The timing of this signal, given the context of their current sales cycle and regulatory approval pending, warrants attention from our team."
+      ],
+      "recommended_action": "Schedule a call to discuss Nordic Clean Energy Grid's strategic use of automated battery dispatch systems and explore how our solutions can support their grid storage optimization initiative.",
+      "conversation_focus": "Grid resilience and carbon emissions reduction",
+      "suggested_opener": "Hi Michael, I wanted to touch base with you regarding your recent exploration of strategic use of automated battery dispatch systems in May 2026. How do you see this aligning with Nordic Clean Energy Grid's goals?"
+    },
+    "signals": [
+      {
+        "evidence_id": "EV-115-1",
+        "signal_type": "GRID_STORAGE_OPTIMIZATION_INITIATIVE",
+        "summary": "Nordic Clean Energy Grid explored strategic use of automated battery dispatch systems in May 2026 as part of their grid storage optimization initiative.",
+        "event_date": "2026-05-04",
+        "direction": "positive",
+        "relevance": 80.0,
+        "need_strength": 70.0,
+        "timing_strength": 90.0
+      }
+    ],
+    "documents": [
+      {
+        "id": "EV-115-1",
+        "title": "Press Statement: Grid Storage Optimization Initiative",
+        "source_type": "company_announcement",
+        "date": "2026-05-04",
+        "content": "Nordic Clean Energy announced strategic exploration of automated battery dispatch systems in May 2026.",
+        "reliability_score": 0.92,
+        "entity_match_confidence": 0.96
+      }
+    ],
+    "last_analyzed_at": "2026-09-21 15:54:27",
+    "is_live_analyzed": true
+  }
+}
