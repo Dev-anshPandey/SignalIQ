@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignalIQ — Lead Intelligence &amp; Sales Prioritisation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Navigation Header -->
+    <header class="top-header">
+      <div class="header-brand">
+        <div class="logo-badge">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+          </svg>
+        </div>
+        <div>
+          <h1 class="brand-title">SignalIQ</h1>
+          <p class="brand-subtitle">Lead Intelligence &amp; Sales Prioritisation</p>
+        </div>
+      </div>
+      <div class="header-status">
+        <div id="aiStatusBadge" class="ai-status-pill ai-checking">
+          <span class="status-dot"></span>
+          <span id="aiStatusText">Connecting...</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Manager Summary Stats Cards -->
+    <section class="stats-grid">
+      <div class="stat-card" data-filter="ALL">
+        <span class="stat-label">Qualified Accounts</span>
+        <div class="stat-val-row">
+          <span class="stat-value" id="statTotalQualified">-</span>
+          <span class="stat-tag">CRM Pipeline</span>
+        </div>
+      </div>
+      <div class="stat-card highlight-green" data-filter="HIGH">
+        <span class="stat-label">High Priority</span>
+        <div class="stat-val-row">
+          <span class="stat-value text-green" id="statHighPriority">-</span>
+          <span class="stat-tag tag-green">Act Now</span>
+        </div>
+      </div>
+      <div class="stat-card highlight-amber" data-filter="REVIEW">
+        <span class="stat-label">Needs Review</span>
+        <div class="stat-val-row">
+          <span class="stat-value text-amber" id="statNeedsReview">-</span>
+          <span class="stat-tag tag-amber">Guardrail Flag</span>
+        </div>
+      </div>
+      <div class="stat-card" data-filter="MONITOR">
+        <span class="stat-label">Monitored / Nurture</span>
+        <div class="stat-val-row">
+          <span class="stat-value text-blue" id="statMonitor">-</span>
+          <span class="stat-tag tag-blue">Stale Timing</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter Bar -->
+    <div class="table-controls">
+      <div class="filter-pills">
+        <button class="filter-btn active" data-filter="ALL">All Accounts</button>
+        <button class="filter-btn" data-filter="HIGH">High Priority</button>
+        <button class="filter-btn" data-filter="REVIEW">Needs Review</button>
+        <button class="filter-btn" data-filter="MONITOR">Monitor</button>
+        <button class="filter-btn" data-filter="SUPPRESSED">Suppressed</button>
+        <button class="filter-btn" data-filter="LOW">Low</button>
+      </div>
+      <div class="search-box">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Filter company name or industry...">
+      </div>
+    </div>
+
+    <!-- Manager Prioritization Table -->
+    <main class="table-card">
+      <table class="leads-table">
+        <thead>
+          <tr>
+            <th>Account</th>
+            <th>Priority</th>
+            <th>Score</th>
+            <th>Confidence</th>
+            <th class="text-right">Action</th>
+          </tr>
+        </thead>
+        <tbody id="accountsTableBody">
+          <tr>
+            <td colspan="5" class="loading-state">Loading qualified accounts...</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+
+  <!-- Account Detail Modal Drawer -->
+  <div id="detailDrawerOverlay" class="drawer-overlay hidden">
+    <div class="drawer-panel">
+      <!-- Drawer Header -->
+      <div class="drawer-header">
+        <div>
+          <div class="drawer-meta-row">
+            <span id="drawerTier" class="tier-badge">Enterprise</span>
+            <span id="drawerIndustry" class="industry-badge">Logistics</span>
+          </div>
+          <h2 id="drawerCompanyName" class="drawer-title">Company Name</h2>
+          <a id="drawerWebsite" href="#" target="_blank" class="drawer-link">website.com ↗</a>
+        </div>
+        <div class="drawer-actions">
+          <button id="refreshAiBtn" class="refresh-btn" title="Re-run LLM pipeline for this account">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+            </svg>
+            <span id="refreshBtnText">Refresh AI</span>
+          </button>
+          <button id="closeDrawerBtn" class="close-btn">&times;</button>
+        </div>
+      </div>
+
+      <!-- Drawer Content -->
+      <div class="drawer-body">
+        <!-- Guardrail Alert Banner (Conditional) -->
+        <div id="drawerGuardrailBox" class="guardrail-banner hidden">
+          <div class="guardrail-icon">⚠️</div>
+          <div class="guardrail-text">
+            <h4 id="guardrailTitle">Guardrail Active</h4>
+            <p id="guardrailMessage">Warning details...</p>
+          </div>
+        </div>
+
+        <!-- Priority & Confidence Summary Bar -->
+        <div class="metrics-summary-bar">
+          <div class="metric-block">
+            <span class="m-label">Priority Status</span>
+            <span id="drawerPriorityBadge" class="badge badge-high">HIGH</span>
+          </div>
+          <div class="metric-block">
+            <span class="m-label">Priority Score</span>
+            <div class="m-score-row">
+              <span id="drawerScoreVal" class="m-value">88.4</span>
+              <span class="m-max">/ 100</span>
+            </div>
+          </div>
+          <div class="metric-block">
+            <span class="m-label">Confidence</span>
+            <div class="m-score-row">
+              <span id="drawerConfidenceVal" class="m-value">91%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section: Why Now -->
+        <section class="drawer-section">
+          <div class="section-title-row">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <h3>WHY NOW</h3>
+          </div>
+          <ul id="drawerWhyNowList" class="evidence-bullets">
+            <li>Loading...</li>
+          </ul>
+        </section>
+
+        <!-- Section: Score Breakdown -->
+        <section class="drawer-section">
+          <div class="section-title-row">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+              <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+            </svg>
+            <h3>SCORE BREAKDOWN</h3>
+          </div>
+          <div class="breakdown-grid">
+            <div class="breakdown-row">
+              <div class="breakdown-info">
+                <span class="breakdown-name">Relevance / Need</span>
+                <span class="breakdown-weight">40% weight</span>
+              </div>
+              <div class="breakdown-score">
+                <div class="progress-track"><div id="barRelevance" class="progress-fill"></div></div>
+                <span id="valRelevance" class="score-num">88.0</span>
+              </div>
+            </div>
+
+            <div class="breakdown-row">
+              <div class="breakdown-info">
+                <span class="breakdown-name">Timing / Urgency</span>
+                <span class="breakdown-weight">40% weight · <span id="valRecencyFactor">1.0x</span> recency</span>
+              </div>
+              <div class="breakdown-score">
+                <div class="progress-track"><div id="barTiming" class="progress-fill"></div></div>
+                <span id="valTiming" class="score-num">90.0</span>
+              </div>
+            </div>
+
+            <div class="breakdown-row">
+              <div class="breakdown-info">
+                <span class="breakdown-name">Commercial Fit</span>
+                <span class="breakdown-weight">20% weight · Qualified CRM</span>
+              </div>
+              <div class="breakdown-score">
+                <div class="progress-track"><div id="barCommercial" class="progress-fill"></div></div>
+                <span id="valCommercial" class="score-num">91.0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Recommended Action -->
+        <section class="drawer-section">
+          <div class="section-title-row">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <h3>RECOMMENDED ACTION</h3>
+          </div>
+          <div class="action-callout" id="drawerRecommendedAction">
+            Loading recommendation...
+          </div>
+        </section>
+
+        <!-- Section: Conversation Focus & Opener -->
+        <section class="drawer-section">
+          <div class="section-title-row">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+            <h3>CONVERSATION FOCUS</h3>
+          </div>
+          <div class="focus-box">
+            <p class="focus-theme" id="drawerConversationFocus">Loading focus...</p>
+            <div class="opener-container">
+              <span class="opener-label">Suggested Opener:</span>
+              <p class="opener-text" id="drawerSuggestedOpener">"..."</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Evidence & Source Documents -->
+        <section class="drawer-section">
+          <div class="section-title-row">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            <h3>EVIDENCE</h3>
+          </div>
+          <div id="drawerEvidenceList" class="evidence-list">
+            <!-- Rendered cards -->
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
