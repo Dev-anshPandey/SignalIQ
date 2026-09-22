@@ -1,0 +1,563 @@
+[
+  {
+    "id": "ACC-101",
+    "name": "Apex Cloud Logistics",
+    "website": "https://apex-cloud-logistics.synthetic",
+    "crm_context": {
+      "industry": "Supply Chain & Logistics",
+      "employee_count": 2800,
+      "annual_revenue_usd": "$320M",
+      "use_case_alignment": 92.0,
+      "potential_account_value": 90.0,
+      "strategic_importance": 88.0,
+      "expansion_potential": 94.0,
+      "last_contact_date": "2026-05-12",
+      "last_contact_rep": "David Miller",
+      "last_contact_outcome": "Nurture - revisiting in Q3",
+      "account_tier": "Enterprise"
+    },
+    "documents": [
+      {
+        "id": "EV-101-1",
+        "title": "Press Release: Apex Cloud Announces Global AI Route Automation Initiative",
+        "source_type": "company_announcement",
+        "date": "2026-09-18",
+        "content": "Apex Cloud Logistics officially launched Project Atlas, a corporate transformation program allocating $4.5M to automate real-time freight dispatch and eliminate manual dispatcher bottlenecks across North America.",
+        "reliability_score": 0.95,
+        "entity_match_confidence": 0.98
+      },
+      {
+        "id": "EV-101-2",
+        "title": "Careers: VP of Intelligent Operations & Automation Pipeline",
+        "source_type": "careers_hiring",
+        "date": "2026-09-19",
+        "content": "Apex Cloud Logistics is urgently seeking a VP of Intelligent Operations to lead workflow orchestration, API-driven vendor integration, and dispatch automation stack evaluation.",
+        "reliability_score": 0.92,
+        "entity_match_confidence": 0.96
+      },
+      {
+        "id": "EV-101-3",
+        "title": "CRM Inbound Note: High Intent Pricing Page Activity",
+        "source_type": "product_pricing_activity",
+        "date": "2026-09-20",
+        "content": "Director of Logistics Technology from Apex viewed our enterprise pricing tier and downloaded the automated dispatch integration whitepaper 4 times in 24 hours.",
+        "reliability_score": 0.98,
+        "entity_match_confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "ACC-102",
+    "name": "FinGuard Payment Systems",
+    "website": "https://finguard-payments.synthetic",
+    "crm_context": {
+      "industry": "Financial Technology",
+      "employee_count": 1450,
+      "annual_revenue_usd": "$180M",
+      "use_case_alignment": 88.0,
+      "potential_account_value": 85.0,
+      "strategic_importance": 86.0,
+      "expansion_potential": 89.0,
+      "last_contact_date": "2026-06-10",
+      "last_contact_rep": "Elena Rostova",
+      "last_contact_outcome": "Demo completed - timing was too early",
+      "account_tier": "Enterprise"
+    },
+    "documents": [
+      {
+        "id": "EV-102-1",
+        "title": "CRM Sales Note: Inbound Demo Request for Compliance Automation",
+        "source_type": "crm_sales_note",
+        "date": "2026-09-20",
+        "content": "Head of Merchant Compliance submitted an urgent demo form: 'We are restructuring our dispute resolution desk and need automated triage software deployed before November audit.'",
+        "reliability_score": 0.99,
+        "entity_match_confidence": 1.0
+      },
+      {
+        "id": "EV-102-2",
+        "title": "FinTech Weekly: FinGuard Expands Merchant Settlement Network",
+        "source_type": "news_report",
+        "date": "2026-09-17",
+        "content": "FinGuard doubled payment volume across cross-border corridors, creating significant operational pressure on compliance processing units.",
+        "reliability_score": 0.88,
+        "entity_match_confidence": 0.95
+      }
+    ]
+  },
+  {
+    "id": "ACC-103",
+    "name": "Vanguard FinTech Systems",
+    "website": "https://vanguard-fintech-systems.synthetic",
+    "crm_context": {
+      "industry": "Banking & Financial Services",
+      "employee_count": 8500,
+      "annual_revenue_usd": "$1.4B",
+      "use_case_alignment": 95.0,
+      "potential_account_value": 96.0,
+      "strategic_importance": 98.0,
+      "expansion_potential": 95.0,
+      "last_contact_date": "2026-04-15",
+      "last_contact_rep": "Michael Chang",
+      "last_contact_outcome": "High strategic interest; waiting on FY27 budget cycle",
+      "account_tier": "Strategic"
+    },
+    "documents": [
+      {
+        "id": "EV-103-1",
+        "title": "Enterprise RFP Notice: Back-Office Document Processing Modernization",
+        "source_type": "business_event",
+        "date": "2026-05-18",
+        "content": "Vanguard FinTech issued an exploratory RFP in May 2026 for automated document classification and parsing. Vendor selection was paused pending annual strategic review.",
+        "reliability_score": 0.92,
+        "entity_match_confidence": 0.97
+      },
+      {
+        "id": "EV-103-2",
+        "title": "Quarterly Financial Call: Cost Discipline & Multi-Year Tech Roadmap",
+        "source_type": "company_announcement",
+        "date": "2026-06-02",
+        "content": "CTO noted multi-year automation objectives remain high priority for 2027 fiscal year, but no new vendor engagements planned for current quarter.",
+        "reliability_score": 0.94,
+        "entity_match_confidence": 0.96
+      }
+    ]
+  },
+  {
+    "id": "ACC-104",
+    "name": "Kestrel Energy Solutions",
+    "website": "https://kestrel-energy.synthetic",
+    "crm_context": {
+      "industry": "Renewables & Utilities",
+      "employee_count": 4200,
+      "annual_revenue_usd": "$580M",
+      "use_case_alignment": 86.0,
+      "potential_account_value": 91.0,
+      "strategic_importance": 87.0,
+      "expansion_potential": 88.0,
+      "last_contact_date": "2026-03-22",
+      "last_contact_rep": "Sarah Jenkins",
+      "last_contact_outcome": "Executive contact moved departments",
+      "account_tier": "Enterprise"
+    },
+    "documents": [
+      {
+        "id": "EV-104-1",
+        "title": "Industry Journal: Kestrel Outlines Grid Modernization Blueprint",
+        "source_type": "news_report",
+        "date": "2026-05-10",
+        "content": "Kestrel Energy published a whitepaper in Spring 2026 highlighting plans for AI-driven predictive telemetry across wind turbine installations.",
+        "reliability_score": 0.85,
+        "entity_match_confidence": 0.93
+      },
+      {
+        "id": "EV-104-2",
+        "title": "CRM Note: Inactive Account Review",
+        "source_type": "crm_sales_note",
+        "date": "2026-05-25",
+        "content": "No inbound inquiries or website visits recorded since May 2026. Account shows high fit on paper but stalled timing.",
+        "reliability_score": 0.96,
+        "entity_match_confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "ACC-105",
+    "name": "NovaBio Health",
+    "website": "https://novabio-health.synthetic",
+    "crm_context": {
+      "industry": "Biotechnology & Pharmaceuticals",
+      "employee_count": 3100,
+      "annual_revenue_usd": "$410M",
+      "use_case_alignment": 89.0,
+      "potential_account_value": 88.0,
+      "strategic_importance": 85.0,
+      "expansion_potential": 87.0,
+      "last_contact_date": "2026-07-02",
+      "last_contact_rep": "Alex Rivera",
+      "last_contact_outcome": "In discussions with VP Informatics",
+      "account_tier": "Enterprise"
+    },
+    "documents": [
+      {
+        "id": "EV-105-1",
+        "title": "Press Release: NovaBio Accelerates Clinical Trial Automation",
+        "source_type": "company_announcement",
+        "date": "2026-09-17",
+        "content": "NovaBio Health announced a major push to adopt next-generation data synthesis platforms to cut clinical trial reporting cycles by 40%.",
+        "reliability_score": 0.95,
+        "entity_match_confidence": 0.98
+      },
+      {
+        "id": "EV-105-2",
+        "title": "Internal Memo Leak / Industry Wire: NovaBio Imposes Strict Software Freeze",
+        "source_type": "news_report",
+        "date": "2026-09-19",
+        "content": "CFO announced an immediate company-wide moratorium on new software vendor commitments and SaaS renewals exceeding $50k until Q1 2027 audit completion.",
+        "reliability_score": 0.91,
+        "entity_match_confidence": 0.96
+      },
+      {
+        "id": "EV-105-3",
+        "title": "CRM Sales Note: Conflicting Feedback from Clinical Lead",
+        "source_type": "crm_sales_note",
+        "date": "2026-09-20",
+        "content": "Dr. Aris mentioned they love our platform and have an urgent trial starting next month, but procurement blocked the purchase requisition yesterday due to executive freeze.",
+        "reliability_score": 0.97,
+        "entity_match_confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "ACC-106",
+    "name": "Quantum Orbit Analytics",
+    "website": "https://quantum-orbit.synthetic",
+    "crm_context": {
+      "industry": "Aerospace & Geospatial",
+      "employee_count": 920,
+      "annual_revenue_usd": "$95M",
+      "use_case_alignment": 84.0,
+      "potential_account_value": 80.0,
+      "strategic_importance": 82.0,
+      "expansion_potential": 85.0,
+      "last_contact_date": "2026-08-01",
+      "last_contact_rep": "Sarah Jenkins",
+      "last_contact_outcome": "Evaluating internal builds vs vendor solutions",
+      "account_tier": "Mid-Market"
+    },
+    "documents": [
+      {
+        "id": "EV-106-1",
+        "title": "Hiring Surge: 8 Senior Machine Learning Engineers",
+        "source_type": "careers_hiring",
+        "date": "2026-09-16",
+        "content": "Quantum Orbit posted 8 new roles for telemetry anomaly detection and automated satellite imagery parsing.",
+        "reliability_score": 0.93,
+        "entity_match_confidence": 0.97
+      },
+      {
+        "id": "EV-106-2",
+        "title": "Executive Change Notice: Leadership Restructure & Vendor Audit",
+        "source_type": "business_event",
+        "date": "2026-09-18",
+        "content": "New Chief Operating Officer mandated a freeze on external AI software contracts while the company benchmarks in-house engineering capabilities.",
+        "reliability_score": 0.90,
+        "entity_match_confidence": 0.95
+      }
+    ]
+  },
+  {
+    "id": "ACC-107",
+    "name": "Horizon Retail Tech",
+    "website": "https://horizon-retail.synthetic",
+    "crm_context": {
+      "industry": "Omnichannel Retail",
+      "employee_count": 5200,
+      "annual_revenue_usd": "$740M",
+      "use_case_alignment": 91.0,
+      "potential_account_value": 93.0,
+      "strategic_importance": 90.0,
+      "expansion_potential": 92.0,
+      "last_contact_date": "2026-09-18",
+      "last_contact_rep": "David Miller",
+      "last_contact_outcome": "Discovery call completed; custom proposal presented. Follow-up meeting scheduled for next week.",
+      "account_tier": "Enterprise"
+    },
+    "documents": [
+      {
+        "id": "EV-107-1",
+        "title": "Company Press Release: Omnichannel Inventory Sync 2.0",
+        "source_type": "company_announcement",
+        "date": "2026-09-15",
+        "content": "Horizon Retail Tech announced nationwide rollout of autonomous store inventory balancing.",
+        "reliability_score": 0.95,
+        "entity_match_confidence": 0.99
+      },
+      {
+        "id": "EV-107-2",
+        "title": "CRM Sales Rep Log: Active Opportunity in Progress",
+        "source_type": "crm_sales_note",
+        "date": "2026-09-18",
+        "content": "Rep David Miller: 'Spoke with VP of Digital Operations for 45 mins. Demo went excellently. Formal enterprise proposal sent. Meeting set with Procurement for next Tuesday.'",
+        "reliability_score": 0.99,
+        "entity_match_confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "ACC-108",
+    "name": "Stratos Security Solutions",
+    "website": "https://stratos-security.synthetic",
+    "crm_context": {
+      "industry": "Cybersecurity & Identity",
+      "employee_count": 2100,
+      "annual_revenue_usd": "$230M",
+      "use_case_alignment": 87.0,
+      "potential_account_value": 86.0,
+      "strategic_importance": 84.0,
+      "expansion_potential": 88.0,
+      "last_contact_date": "2026-09-17",
+      "last_contact_rep": "Elena Rostova",
+      "last_contact_outcome": "Contract negotiation underway with legal team.",
+      "account_tier": "Enterprise"
+    },
+    "documents": [
+      {
+        "id": "EV-108-1",
+        "title": "Product Launch: Zero Trust Access Gateway v4",
+        "source_type": "company_announcement",
+        "date": "2026-09-14",
+        "content": "Stratos launched their cloud access gateway integrating threat intelligence feeds across enterprise endpoints.",
+        "reliability_score": 0.94,
+        "entity_match_confidence": 0.97
+      },
+      {
+        "id": "EV-108-2",
+        "title": "CRM Sales Log: Active Legal Review",
+        "source_type": "crm_sales_note",
+        "date": "2026-09-17",
+        "content": "Rep Elena: 'Redlines received from Stratos General Counsel. Security review cleared. Do not initiate cold contact; deal closing sequence managed by Enterprise team.'",
+        "reliability_score": 0.99,
+        "entity_match_confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "ACC-109",
+    "name": "Legacy Ironworks & Co",
+    "website": "https://legacy-ironworks.synthetic",
+    "crm_context": {
+      "industry": "Heavy Manufacturing & Materials",
+      "employee_count": 650,
+      "annual_revenue_usd": "$48M",
+      "use_case_alignment": 35.0,
+      "potential_account_value": 30.0,
+      "strategic_importance": 25.0,
+      "expansion_potential": 30.0,
+      "last_contact_date": "2026-06-28",
+      "last_contact_rep": "Michael Chang",
+      "last_contact_outcome": "No software budget; heavy legacy equipment focus",
+      "account_tier": "Mid-Market"
+    },
+    "documents": [
+      {
+        "id": "EV-109-1",
+        "title": "Local Business Notice: Foundry Equipment Safety Recertification",
+        "source_type": "business_event",
+        "date": "2026-06-25",
+        "content": "Legacy Ironworks completed municipal hydraulic safety certification for their stamping facility in Ohio.",
+        "reliability_score": 0.82,
+        "entity_match_confidence": 0.88
+      },
+      {
+        "id": "EV-109-2",
+        "title": "Trade Directory Listing: Annual Capacity Report",
+        "source_type": "news_report",
+        "date": "2026-07-02",
+        "content": "Report shows standard casting output unchanged; no technology modernization programs planned.",
+        "reliability_score": 0.80,
+        "entity_match_confidence": 0.85
+      }
+    ]
+  },
+  {
+    "id": "ACC-110",
+    "name": "Pacific Timber Logistics",
+    "website": "https://pacific-timber.synthetic",
+    "crm_context": {
+      "industry": "Forestry & Materials",
+      "employee_count": 480,
+      "annual_revenue_usd": "$38M",
+      "use_case_alignment": 28.0,
+      "potential_account_value": 25.0,
+      "strategic_importance": 20.0,
+      "expansion_potential": 22.0,
+      "last_contact_date": "2026-05-15",
+      "last_contact_rep": "David Miller",
+      "last_contact_outcome": "Closed Lost - lack of technical readiness",
+      "account_tier": "Growth"
+    },
+    "documents": [
+      {
+        "id": "EV-110-1",
+        "title": "Regional News: Warehouse Lease Extension",
+        "source_type": "business_event",
+        "date": "2026-06-15",
+        "content": "Pacific Timber renewed their 5-year lease on lumber distribution yards in Oregon.",
+        "reliability_score": 0.85,
+        "entity_match_confidence": 0.90
+      }
+    ]
+  },
+  {
+    "id": "ACC-111",
+    "name": "AuraMed Telehealth",
+    "website": "https://auramed-telehealth.synthetic",
+    "crm_context": {
+      "industry": "Digital Healthcare",
+      "employee_count": 1800,
+      "annual_revenue_usd": "$210M",
+      "use_case_alignment": 90.0,
+      "potential_account_value": 88.0,
+      "strategic_importance": 89.0,
+      "expansion_potential": 91.0,
+      "last_contact_date": "2026-06-30",
+      "last_contact_rep": "Alex Rivera",
+      "last_contact_outcome": "Revisit when patient triage volume spikes",
+      "account_tier": "Enterprise"
+    },
+    "documents": [
+      {
+        "id": "EV-111-1",
+        "title": "TechCrunch Coverage: AuraMed Reaches 3M Virtual Visits",
+        "source_type": "news_report",
+        "date": "2026-09-18",
+        "content": "AuraMed reported 85% year-over-year expansion in remote consultations, overwhelming manual clinical intake coordinators and triage queues.",
+        "reliability_score": 0.94,
+        "entity_match_confidence": 0.98
+      },
+      {
+        "id": "EV-111-2",
+        "title": "Hiring: Director of Patient Intake Automation",
+        "source_type": "careers_hiring",
+        "date": "2026-09-19",
+        "content": "AuraMed is actively hiring an automation lead to integrate automated patient pre-screening and EHR data pipeline software.",
+        "reliability_score": 0.92,
+        "entity_match_confidence": 0.97
+      }
+    ]
+  },
+  {
+    "id": "ACC-112",
+    "name": "Beacon Freight Global",
+    "website": "https://beacon-freight.synthetic",
+    "crm_context": {
+      "industry": "Maritime & Freight Forwarding",
+      "employee_count": 3400,
+      "annual_revenue_usd": "$490M",
+      "use_case_alignment": 82.0,
+      "potential_account_value": 84.0,
+      "strategic_importance": 80.0,
+      "expansion_potential": 83.0,
+      "last_contact_date": "2026-08-28",
+      "last_contact_rep": "Michael Chang",
+      "last_contact_outcome": "Interested in customs customs filing automation",
+      "account_tier": "Enterprise"
+    },
+    "documents": [
+      {
+        "id": "EV-112-1",
+        "title": "Maritime News: Beacon Freight Expands Transpacific Cargo Routes",
+        "source_type": "company_announcement",
+        "date": "2026-09-02",
+        "content": "Beacon Freight added 12 new vessel charters to handle increased tariff documentation and customs manifest compliance.",
+        "reliability_score": 0.90,
+        "entity_match_confidence": 0.96
+      },
+      {
+        "id": "EV-112-2",
+        "title": "Product Evaluation: Customs Automation RFP",
+        "source_type": "product_pricing_activity",
+        "date": "2026-09-08",
+        "content": "Beacon Freight operations team reviewed automated bill-of-lading extraction systems and requested ROI benchmarks.",
+        "reliability_score": 0.93,
+        "entity_match_confidence": 0.97
+      }
+    ]
+  },
+  {
+    "id": "ACC-113",
+    "name": "CloudScale DevOps",
+    "website": "https://cloudscale-devops.synthetic",
+    "crm_context": {
+      "industry": "Cloud Infrastructure",
+      "employee_count": 720,
+      "annual_revenue_usd": "$82M",
+      "use_case_alignment": 85.0,
+      "potential_account_value": 78.0,
+      "strategic_importance": 79.0,
+      "expansion_potential": 82.0,
+      "last_contact_date": "2026-07-20",
+      "last_contact_rep": "Elena Rostova",
+      "last_contact_outcome": "Interested in incident triage automation",
+      "account_tier": "Mid-Market"
+    },
+    "documents": [
+      {
+        "id": "EV-113-1",
+        "title": "Blog Post: Incident Response Scaling Challenges",
+        "source_type": "company_announcement",
+        "date": "2026-09-17",
+        "content": "CloudScale engineering blog highlighted the need to automate alert correlation and root cause classification to reduce on-call engineer burnout.",
+        "reliability_score": 0.91,
+        "entity_match_confidence": 0.95
+      },
+      {
+        "id": "EV-113-2",
+        "title": "Careers: Senior SRE - Automation Tools",
+        "source_type": "careers_hiring",
+        "date": "2026-09-19",
+        "content": "Seeking an SRE to build and integrate intelligent alerting pipelines and vendor monitoring integrations.",
+        "reliability_score": 0.93,
+        "entity_match_confidence": 0.96
+      }
+    ]
+  },
+  {
+    "id": "ACC-114",
+    "name": "Veritas Legal Tech",
+    "website": "https://veritas-legal.synthetic",
+    "crm_context": {
+      "industry": "Legal Technology & Discovery",
+      "employee_count": 550,
+      "annual_revenue_usd": "$65M",
+      "use_case_alignment": 78.0,
+      "potential_account_value": 74.0,
+      "strategic_importance": 72.0,
+      "expansion_potential": 76.0,
+      "last_contact_date": "2026-05-18",
+      "last_contact_rep": "Sarah Jenkins",
+      "last_contact_outcome": "Demo given to associate general counsel",
+      "account_tier": "Growth"
+    },
+    "documents": [
+      {
+        "id": "EV-114-1",
+        "title": "Legal IT Insider: Veritas Signs Multi-Firm eDiscovery Partnership",
+        "source_type": "news_report",
+        "date": "2026-08-14",
+        "content": "Veritas expanded its litigation support contracts across 20 regional law firms in August 2026.",
+        "reliability_score": 0.88,
+        "entity_match_confidence": 0.94
+      }
+    ]
+  },
+  {
+    "id": "ACC-115",
+    "name": "Nordic Clean Energy Grid",
+    "website": "https://nordic-clean-energy.synthetic",
+    "crm_context": {
+      "industry": "Energy & Infrastructure",
+      "employee_count": 3800,
+      "annual_revenue_usd": "$510M",
+      "use_case_alignment": 80.0,
+      "potential_account_value": 85.0,
+      "strategic_importance": 83.0,
+      "expansion_potential": 81.0,
+      "last_contact_date": "2026-04-10",
+      "last_contact_rep": "Michael Chang",
+      "last_contact_outcome": "Long sales cycle; regulatory approval pending",
+      "account_tier": "Enterprise"
+    },
+    "documents": [
+      {
+        "id": "EV-115-1",
+        "title": "Press Statement: Grid Storage Optimization Initiative",
+        "source_type": "company_announcement",
+        "date": "2026-05-04",
+        "content": "Nordic Clean Energy announced strategic exploration of automated battery dispatch systems in May 2026.",
+        "reliability_score": 0.92,
+        "entity_match_confidence": 0.96
+      }
+    ]
+  }
+]
